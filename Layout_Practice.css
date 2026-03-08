@@ -1,0 +1,48 @@
+html { background: #A79F88; }
+body { background: #dbccb8; width: 800px; margin: 0 auto; padding: 2rem;}
+
+
+  
+h1, span { font-family: 'Della Respira', serif; color: orangered; }
+h2, span { font-family: 'Tagesschrift' , serif; color: #63010E}
+p { font-family: 'Rosarivo' , serif; color: #63010E}
+lil { font-family: 'Jim Nightshade' , serif; color: #63010E}
+h1 nav { color:#590b0b; }
+
+
+nav{ display:flex;
+                justify-content: space-between;
+                height: 60px; font-size: 16px }
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-areas: 
+    "hd"
+    "main"
+    "ft";
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "hd"
+      "main"
+      "ft";
+  }
+}
+
+header { grid-area: hd; background: #A68160; padding: 16px; }
+main { background: linear-gradient(to right, #DCC7AC, #CDB194, #897264); margin-inline: ; {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}}
+footer { grid-area: ft; background: #A68160; padding: 10px; }
+

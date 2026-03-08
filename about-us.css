@@ -1,0 +1,38 @@
+html { background: #A79F88; }
+body { background: #DBCCB8; width: 800px; margin: 0 auto; padding: 2rem;
+  
+ 
+h1 { font-family: 'Trade Winds', cursive;}
+P { font-family: 'special Elite', cursive; }
+
+.about {
+    padding: 40px 60px;
+    background: #DCC7AC;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+
+.about-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #63010E;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #63010E;
+}
+
+
+
+.btn:hover {
+    background: #3730a3;
+}
