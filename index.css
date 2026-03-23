@@ -1,8 +1,12 @@
-html { background: #A79F88; }
-body { background: #dbccb8; width: 800px; margin: 0 auto; padding: 2rem;}
+html { background: #B37C50; }
+body { background: #B37C50; width: 1000px; margin: 0 auto; padding: 2rem;}
 
-
-  
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
 h1, span { font-family: 'Della Respira', serif; color: orangered; }
 h2, span { font-family: 'Tagesschrift' , serif; color: #63010E}
 p { font-family: 'Rosarivo' , serif; color: #63010E}
@@ -19,7 +23,7 @@ nav{ display:flex;
   min-height: 100vh;
   gap: 10px;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 1fr 80px;
+  grid-template-rows: 150px 1fr 50px;
   grid-template-areas: 
     "hd"
     "main"
@@ -29,7 +33,7 @@ nav{ display:flex;
 
 @media (max-width: 768px) {
   .container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
       "hd"
@@ -38,11 +42,40 @@ nav{ display:flex;
   }
 }
 
-header { grid-area: hd; background: #A68160; padding: 16px; }
+header { grid-area: hd; background: #88AE9C; padding: 16px; }
 main { background: linear-gradient(to right, #DCC7AC, #CDB194, #897264); margin-inline: ; {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
 }}
-footer { grid-area: ft; background: #A68160; padding: 10px; }
+footer { grid-area: ft; background: #88AE9C; padding: 10px; }
 
+
+
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: ;
+  padding: 0;
+  background-color: #88AE9C;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: #5B0A09;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #E1E0DF;
+}
