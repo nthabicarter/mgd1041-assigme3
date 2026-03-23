@@ -7,7 +7,7 @@ html, body {
   width: 100%;
   min-height: 100vh;
 }
-h1, span { font-family: 'Della Respira', serif; color: orangered; }
+h1, span { font-family: 'Della Respira', serif; color: #63010E; }
 h2, span { font-family: 'Tagesschrift' , serif; color: #63010E}
 p { font-family: 'Rosarivo' , serif; color: #63010E}
 lil { font-family: 'Jim Nightshade' , serif; color: #63010E}
