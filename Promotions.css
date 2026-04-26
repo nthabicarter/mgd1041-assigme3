@@ -1,0 +1,94 @@
+
+html { background: #F5E6CC;}
+body { background: #6B8170; width: 800px; margin: 0 auto; padding: 1rem;
+
+    .home-button {
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        background: #D26C3C;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 5px;
+    }
+
+{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+
+    .nav {
+      text-align: center;
+      padding: 10px;
+      background: #007BFF;
+    }
+
+    .nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+      background: #59070E;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .promotions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .promo-card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .promo-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .promo-card h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .discount {
+      color: #8C0327;
+      font-size: 18px;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .promo-card button {
+      padding: 10px;
+      border: none;
+      background: #D26C3C;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .promo-card button:hover {
+      background: #0056b3;
+    }
