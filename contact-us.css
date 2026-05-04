@@ -1,5 +1,6 @@
 html { background: #F5E6CC;}
-body { background: #6B8170; width: 800px; margin: 0 auto; padding: 1rem;
+body { background: #6B8170; width:1rem margin: 0 auto; padding: 1rem;
+
 
 
   h1 { font-family: 'Trade Winds', cursive; padding: 30px}
@@ -61,7 +62,7 @@ h1 {
   flex: 1;
   padding: 20px;
   background: #D26C3C;
-  color: white;
+  color: black;
 }
 
 .contact-info h2 {
@@ -74,10 +75,21 @@ h1 {
   margin: 15px 0;
 }
 
-.info-item img {
-  width: 30px;
-  height: 30px;
+.info-item i {
+  font-size: 30px;
   margin-right: 10px;
+  width: 25px;
+  text-align: center;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size:15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* change on hover */
 }
 
 /* Right column (form) */
@@ -114,4 +126,11 @@ h1 {
   .contact-container {
     flex-direction: column;
   }
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #6B8170;
+  color: white;
+  margin-top: 60px;
 }

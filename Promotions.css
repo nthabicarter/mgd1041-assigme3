@@ -1,94 +1,136 @@
 
-html { background: #F5E6CC;}
-body { background: #6B8170; width: 800px; margin: 0 auto; padding: 1rem;
+body {
+  background: #6B8170;
+  margin: 0;
+  padding: 1rem;
+}
 
-    .home-button {
-        display: inline-block;
-        margin: 20px;
-        text-decoration: none;
-        background: #D26C3C;
-        color: white;
-        padding: 8px 15px;
-        border-radius: 5px;
-    }
+.home-button {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  background: #D26C3C;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
 
-{
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f9;
-    }
+/* Title */
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
 
-    h1 {
-      text-align: center;
-      padding: 20px;
-      color: #333;
-    }
+/* Navigation */
+.nav {
+  text-align: center;
+  padding: 10px;
+  background: #007BFF;
+}
 
-    .nav {
-      text-align: center;
-      padding: 10px;
-      background: #007BFF;
-    }
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    .nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+/* Banner */
+.banner {
+  background: #59070E;
+  color: white;
+  text-align: center;
+  padding: 0 rem 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.banner {
+  font-size: 1rem; /* bigger header */
 
-    .banner {
-      background: #59070E;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
 
-    .promotions {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
+}
 
-    .promo-card {
-      background: white;
-      border-radius: 10px;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
+.promotions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10rem;
+  padding: 20px;
+}
 
-    .promo-card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
+/* Cards */
+.promo-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
-    .promo-card h3 {
-      margin: 10px 0;
-      color: #333;
-    }
+/* Images */
+.promo-card img {
+  width: 100%;
+  height: auto; 
+  border-radius: 8px;
+}
 
-    .discount {
-      color: #8C0327;
-      font-size: 18px;
-      margin: 5px 0;
-      font-weight: bold;
-    }
+/* Text */
+.promo-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
 
-    .promo-card button {
-      padding: 10px;
-      border: none;
-      background: #D26C3C;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.discount {
+  color: #8C0327;
+  font-size: 18px;
+  margin: 5px 0;
+  font-weight: bold;
+}
 
-    .promo-card button:hover {
-      background: #0056b3;
-    }
+/* Button */
+.promo-card button {
+  padding: 10px;
+  border: none;
+  background: #D26C3C;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.banner .home-button {
+  position: absolute;
+  left: 15px;
+}
+.promo-card button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    font-size: 2rem;
+    padding: 25px 10px;
+  }
+
+  .nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .home-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner .home-button {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+}
