@@ -5,14 +5,13 @@
   box-sizing: border-box;
 }
 
-/* BASE */
+
 body {
   font-family: Arial, sans-serif;
   background: #fdf6f0;
-  color: #333;
+  color: black;
 }
 
-/* NAVBAR */
 .navbar {
   display: flex;
   align-items: center;
@@ -23,24 +22,31 @@ body {
   position: sticky;
   top: 0;
   flex-wrap: wrap;
+  font-family: "Trade Winds", cursive;
+
+}
+navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Special Elite', cursive;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-}
 
 .nav-links {
   display: flex;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  font-family: 'Special Elite', cursive;
+
 }
 
 .navbar a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+  font-family: 'special Elite', cursive;
 }
 
 .navbar a:hover {
@@ -139,12 +145,6 @@ body {
   object-fit: contain;
 }
 
-.logo {
-  font-size: 12px;
-  font-weight: bold;
-  color: white;
-}
-
 .search-bar input {
   padding: 8px;
   width: 250px;
@@ -158,6 +158,7 @@ body {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  font-family: Arial, sans-serif;
 }
 
 /* PRODUCTS GRID */
@@ -242,12 +243,6 @@ footer {
     margin: 10px 0;
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
   .hero {
     padding: 50px 20px;
   }
@@ -265,8 +260,6 @@ h1 {
   font-family: 'Trade Winds', cursive;
   padding: 20px;
   text-align: center;
-}
-h1 {
   font-size: 2.5rem;
 }
 
@@ -327,11 +320,6 @@ main {
     gap: 10px;
   }
 
-  .home-button {
-    display: block;
-    text-align: center;
-    margin: 10px auto;
-  }
 }
 
 body {
@@ -346,23 +334,6 @@ h1 {
   padding: 20px;
   color: white;
 }
-
-/* Navigation */
-.nav {
-  text-align: center;
-  padding: 10px;
-  background: #007BFF;
-}
-
-.nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-
-
 .promotions {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -389,7 +360,7 @@ h1 {
 /* Text */
 .promo-card h3 {
   margin: 10px 0;
-  color: #333;
+  color: black;
 }
 
 .discount {
@@ -428,10 +399,7 @@ h1 {
     display: block;
     margin: 5px 0;
   }
-
-
 }
-
 @media (max-width: 600px) {
   .banner .home-button {
     position: static;
@@ -441,22 +409,6 @@ h1 {
   .banner {
     flex-direction: column;
   }
-}
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: 'Trade Winds', cursive;
-}
-
-.nav-links {
-  display: flex;
-  gap:2rem;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 /* Headings */
@@ -525,7 +477,6 @@ main {
 }
 
 
-/* 📱 MOBILE FIX */
 @media (max-width: 700px) {
 
   .about-container {
@@ -548,9 +499,7 @@ main {
 html { background: #F5E6CC;}
 body { background: #6B8170; width:1rem margin: 0 auto; padding: 1rem;
 
-
-
-  h1 { font-family: 'Trade Winds', cursive; padding: 30px}
+  h1 { font-family: 'special Elite', cursive; padding: 30px}
   h2 { font-family: 'special Elite', cursive; padding: 20px}
   h3 { font-family: 'special Elite', cursive; padding: 20px}
 
@@ -569,16 +518,16 @@ body { background: #6B8170; width:1rem margin: 0 auto; padding: 1rem;
 
 
 
-{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f6f9;
-}
+/*{*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 0;*/
+/*  background: #f4f6f9;*/
+/*}*/
 
 h1 {
   text-align: center;
   padding: 20px;
-  color: #333;
+  color: black;
 }
 
 /* Container */
@@ -619,7 +568,7 @@ h1 {
 }
 .social-icons a {
   margin: 0 10px;
-  color: #333;
+  color: black;
   font-size:15px;
   text-decoration: none;
 }
